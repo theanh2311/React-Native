@@ -1,21 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {View,Text} from 'react-native';
+import L22Function from './L22Function';
+import L31TextInput from './L31TextInput';
+import Lab21CLass from './Lab21Class';
+import Lab31Props from './Lab31Props';
+import Lab32Cha from './Lab32Cha';
+import Lab32Con from './Lab32Con';
+import Lab33State from './Lab33State';
+import Lab34StateInputData from './Lab34StateInputData';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    //<Lab31Props tenNguoi="Nguyen The Anh*****"/>
+    <Lab32Cha />
+    //<Lab32Con ten="Nguyen The Anh2***"/>
+    //<Lab33State/>
+    //<Lab34StateInputData/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
