@@ -8,14 +8,18 @@ import Lab32Cha from './Lab32Cha';
 import Lab32Con from './Lab32Con';
 import Lab33State from './Lab33State';
 import Lab34StateInputData from './Lab34StateInputData';
+import Lab4SendData from './Lab4SendData';
+import Lab4SendData2 from './Lab4SendData2';
 
 const App = () => {
   return (
     //<Lab31Props tenNguoi="Nguyen The Anh*****"/>
-    <Lab32Cha />
+    //<Lab32Cha />
     //<Lab32Con ten="Nguyen The Anh2***"/>
     //<Lab33State/>
     //<Lab34StateInputData/>
+   // <Lab4SendData/>
+    <Lab4SendData2/>
   );
 }
 export default App;
