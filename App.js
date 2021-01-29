@@ -10,6 +10,8 @@ import Lab33State from './Lab33State';
 import Lab34StateInputData from './Lab34StateInputData';
 import Lab4SendData from './Lab4SendData';
 import Lab4SendData2 from './Lab4SendData2';
+import Lab51ReadDataFunc from './Lab51ReadData';
+import Lab52ReadDataClass from './Lab52ReadDataClass';
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
     //<Lab33State/>
     //<Lab34StateInputData/>
    // <Lab4SendData/>
-    <Lab4SendData2/>
+    //<Lab4SendData2/>
+   // <Lab51ReadDataFunc/>
+   <Lab52ReadDataClass/>
   );
 }
 export default App;
