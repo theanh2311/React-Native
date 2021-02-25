@@ -12,6 +12,12 @@ import Lab4SendData from './Lab4SendData';
 import Lab4SendData2 from './Lab4SendData2';
 import Lab51ReadDataFunc from './Lab51ReadData';
 import Lab52ReadDataClass from './Lab52ReadDataClass';
+import Lab61FlatList from './Lab61FlatList';
+import Lab62SectionList from './Lab62SectionList';
+import Lab71WidthHeight from './Lab71WidthHeight';
+import Lab72Flex from './Lab72Flex';
+import Lab81FlexDirection from './Lab81FlexDirection';
+import Lab82JustifyContent from './Lab82JustifyContent';
 
 const App = () => {
   return (
@@ -23,7 +29,16 @@ const App = () => {
    // <Lab4SendData/>
     //<Lab4SendData2/>
    // <Lab51ReadDataFunc/>
-   <Lab52ReadDataClass/>
+   //<Lab52ReadDataClass/>
+
+   //Lab6
+   //<Lab61FlatList/>
+  // <Lab62SectionList/>
+
+ //<Lab71WidthHeight/>
+ //<Lab72Flex/>
+ //<Lab81FlexDirection/>
+ <Lab82JustifyContent/>
   );
 }
 export default App;
