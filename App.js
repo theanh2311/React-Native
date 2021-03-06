@@ -18,6 +18,7 @@ import Lab71WidthHeight from './Lab71WidthHeight';
 import Lab72Flex from './Lab72Flex';
 import Lab81FlexDirection from './Lab81FlexDirection';
 import Lab82JustifyContent from './Lab82JustifyContent';
+import Lab83Picture from './Lab83Picture';
 
 const App = () => {
   return (
@@ -37,8 +38,9 @@ const App = () => {
 
  //<Lab71WidthHeight/>
  //<Lab72Flex/>
- //<Lab81FlexDirection/>
- <Lab82JustifyContent/>
+ <Lab81FlexDirection/>
+ //<Lab82JustifyContent/>
+ //<Lab83Picture/>
   );
 }
 export default App;
